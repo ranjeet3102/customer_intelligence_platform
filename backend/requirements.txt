@@ -1,0 +1,2 @@
+-r requirements-airflow.txt
+-r requirements-api.txt

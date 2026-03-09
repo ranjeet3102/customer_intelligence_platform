@@ -1,0 +1,9 @@
+clv:
+  # Minimum churn probability to avoid division by zero
+  epsilon: 0.001
+
+  # Maximum expected remaining lifetime (months)
+  max_lifetime_months: 60
+
+  # Assumed profit margin (used until real cost data exists)
+  margin_rate: 0.7

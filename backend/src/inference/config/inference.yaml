@@ -1,0 +1,5 @@
+churn:
+  threshold: 0.563
+  recall: 0.7005347593582888
+  objective: recall >= 0.7
+  decided_in: phase_3_validation
