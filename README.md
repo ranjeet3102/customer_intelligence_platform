@@ -8,6 +8,10 @@ The platform simulates a production-grade analytics pipeline used in subscriptio
 
 It integrates **data engineering, machine learning, business analytics, and orchestration** into a unified system that runs automatically when new data arrives.
 
+- **[Frontend](./frontend)**: A React + Vite application featuring a premium light-mode dashboard.
+- **[Backend](./backend)**: A FastAPI service providing endpoints for KPIs, predictions, and segmentation.
+- **[Airflow](./airflow)**: An automation layer for data pipelines, model training, and batch inference.
+
 ---
 
 # Project Objectives
@@ -20,6 +24,36 @@ The system aims to answer critical business questions:
 • What retention actions should the company take?
 • What is the expected ROI of retention incentives?
 
+## Prerequisites
+
+- **Python**: 3.11+
+- **Node.js**: 20.x+
+- **Docker**: For running the Airflow pipelines.
+
+## How to Run
+
+### 1. Backend (API)
+The backend provides the API layer for the dashboard.
+```bash
+cd backend
+pip install -r requirements.txt
+python -m uvicorn src.api.main:app --reload
+```
+
+### 2. Frontend (Dashboard)
+The dashboard provides the user interface.
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Airflow (Pipelines)
+Airflow handles data orchestration.
+```bash
+cd airflow
+docker compose up -d
+```
 ---
 
 # System Architecture

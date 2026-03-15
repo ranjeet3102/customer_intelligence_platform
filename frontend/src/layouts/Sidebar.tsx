@@ -98,9 +98,9 @@ export default function Sidebar() {
                 <div style={{ fontSize: 11, fontWeight: 700, color: "var(--accent)", marginBottom: 4, letterSpacing: "0.04em", textTransform: "uppercase" }}>
                     Data Source
                 </div>
-                <div style={{ fontSize: 11, color: "var(--text-secondary)", lineHeight: 1.5, fontFamily: "monospace" }}>
+                {/* <div style={{ fontSize: 11, color: "var(--text-secondary)", lineHeight: 1.5, fontFamily: "monospace" }}>
                     retention_decisions.parquet
-                </div>
+                </div> */}
                 <div style={{
                     marginTop: 8, display: "flex", alignItems: "center", gap: 5,
                     fontSize: 11, color: "var(--green)", fontWeight: 600,
