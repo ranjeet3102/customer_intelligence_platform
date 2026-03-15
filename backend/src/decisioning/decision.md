@@ -6,21 +6,6 @@ The Retention Decision Engine determines the optimal retention strategy for each
 It combines information from the churn prediction model, customer lifetime value (CLV), and customer segmentation results to decide whether a retention action should be applied and how much incentive should be offered.
 
 The goal of this module is to ensure that retention strategies maximize business value while maintaining positive return on investment (ROI).
-------------------------------------------------------------
-Pipeline Position
-Feature Store
-      │
-      ▼
-Batch Inference
-      │
-      ▼
-CLV Engine
-      │
-      ▼
-Customer Segmentation
-      │
-      ▼
-Retention Decision Engine
 ==============================================================
 Objectives
 
@@ -33,6 +18,7 @@ The decision engine performs the following responsibilities:
 * Enforce economic constraints to avoid negative ROI
 * Store final retention decisions
 ================================================================
+
 Input Data
 
 The decision engine consumes three datasets.
