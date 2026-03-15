@@ -7,18 +7,6 @@ It uses churn probability predictions from the inference pipeline and combines t
 
 This module helps the system understand which customers are the most valuable, allowing downstream components such as segmentation and retention decisioning to make economically optimal decisions.
 
--------------------------------------------------------
-Pipeline Position:
-
-Feature Store
-      │
-Batch Inference
-      │
-CLV Engine
-      │
-Customer Segmentation
-      │
-Retention Decision Engine
 =========================================================
 Objectives
 
