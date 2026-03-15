@@ -17,6 +17,7 @@ The batch inference layer performs the following responsibilities:
 * Apply the churn classification threshold
 * Store predictions in the prediction store
 * Attach metadata for reproducibility
+  
 ==============================================================
 
 Pipeline Components
@@ -59,11 +60,9 @@ The model loader retrieves:
 * model artifact
 * model metadata
 * feature version information
+  
 ===========================================================
-Prediction Generation:
 
-The model generates churn probability predictions for each customer.
-==========================================================
 Output Dataset:
 The final prediction dataset is stored in the prediction store.
 
