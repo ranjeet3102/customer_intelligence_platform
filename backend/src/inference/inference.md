@@ -17,7 +17,7 @@ The batch inference layer performs the following responsibilities:
 * Apply the churn classification threshold
 * Store predictions in the prediction store
 * Attach metadata for reproducibility
-=============================================================
+==============================================================
 
 Pipeline Components
 
@@ -44,7 +44,6 @@ The dataset includes:
 * customer identifiers
 * snapshot metadata
 
-Before inference, non-feature columns are removed to ensure feature parity with the training dataset.
 ===============================================================
 
 Model Loading:
