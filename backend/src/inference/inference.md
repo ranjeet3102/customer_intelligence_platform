@@ -30,6 +30,7 @@ The batch inference layer performs the following responsibilities:
 * Apply the churn classification threshold
 * Store predictions in the prediction store
 * Attach metadata for reproducibility
+  
 =============================================================
 Pipeline Components
 
