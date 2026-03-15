@@ -6,8 +6,8 @@ The Inference Layer generates churn predictions for all customers using the prod
 This module loads the latest feature snapshot from the feature store, applies the trained model, and produces churn probability predictions for each customer. These predictions are then stored in the prediction store, which serves as input for downstream modules such as CLV estimation, customer segmentation, and retention decisioning.
 
 The inference pipeline is designed to be deterministic, reproducible, and production-ready.
-
 ==============================================================
+
 Objectives:
 
 The batch inference layer performs the following responsibilities:
