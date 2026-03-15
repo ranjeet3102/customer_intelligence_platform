@@ -12,16 +12,12 @@ Pipeline Position:
 
 Feature Store
       │
-      ▼
 Batch Inference
       │
-      ▼
 CLV Engine
       │
-      ▼
 Customer Segmentation
       │
-      ▼
 Retention Decision Engine
 =========================================================
 Objectives
